@@ -1,0 +1,6 @@
+{
+  "/api/exchange-rates/route": "/api/exchange-rates",
+  "/api/health/route": "/api/health",
+  "/_not-found/page": "/_not-found",
+  "/page": "/"
+}

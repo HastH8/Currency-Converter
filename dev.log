@@ -1,0 +1,53 @@
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): server.ts src/**/*[39m
+[33m[nodemon] watching extensions: ts,tsx,js,jsx[39m
+[32m[nodemon] starting `npx tsx server.ts`[39m
+node:internal/modules/cjs/loader:1225
+  const err = new Error(message);
+              ^
+
+Error: Cannot find module '@/lib/socket'
+Require stack:
+- /Users/hast/Documents/Currency-Converter/server.ts
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at nextResolveSimple (/Users/hast/Documents/Currency-Converter/node_modules/tsx/dist/register-D46fvsV_.cjs:4:1004)
+    at /Users/hast/Documents/Currency-Converter/node_modules/tsx/dist/register-D46fvsV_.cjs:3:2630
+    at /Users/hast/Documents/Currency-Converter/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1542
+    at resolveTsPaths (/Users/hast/Documents/Currency-Converter/node_modules/tsx/dist/register-D46fvsV_.cjs:4:760)
+    at /Users/hast/Documents/Currency-Converter/node_modules/tsx/dist/register-D46fvsV_.cjs:4:1102
+    at m._resolveFilename (file:///Users/hast/Documents/Currency-Converter/node_modules/tsx/dist/register-B7jrtLTO.mjs:1:789)
+    at Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/hast/Documents/Currency-Converter/server.ts' ]
+}
+
+Node.js v20.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsx server.ts`[39m
+node:internal/modules/cjs/loader:1225
+  const err = new Error(message);
+              ^
+
+Error: Cannot find module '@/lib/socket'
+Require stack:
+- /Users/hast/Documents/Currency-Converter/server.ts
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at nextResolveSimple (/Users/hast/Documents/Currency-Converter/node_modules/tsx/dist/register-D46fvsV_.cjs:4:1004)
+    at /Users/hast/Documents/Currency-Converter/node_modules/tsx/dist/register-D46fvsV_.cjs:3:2630
+    at /Users/hast/Documents/Currency-Converter/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1542
+    at resolveTsPaths (/Users/hast/Documents/Currency-Converter/node_modules/tsx/dist/register-D46fvsV_.cjs:4:760)
+    at /Users/hast/Documents/Currency-Converter/node_modules/tsx/dist/register-D46fvsV_.cjs:4:1102
+    at m._resolveFilename (file:///Users/hast/Documents/Currency-Converter/node_modules/tsx/dist/register-B7jrtLTO.mjs:1:789)
+    at Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/Users/hast/Documents/Currency-Converter/server.ts' ]
+}
+
+Node.js v20.17.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
