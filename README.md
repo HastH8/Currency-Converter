@@ -2,6 +2,10 @@
 
 A stunning, production-ready currency converter with Apple-inspired design, built with Next.js 15 and modern web technologies.
 
+# Live Preview
+
+https://convertcur.vercel.app
+
 ## ✨ Features
 
 ### Core Functionality
